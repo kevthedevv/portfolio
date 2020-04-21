@@ -1,0 +1,94 @@
+/* --------------GENERIC---------------- */
+:root{
+    --primary-color: #e50914;
+    --dark-color: #141414;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    --webkit-font-smoothing: antialiased;
+    color: #fff;
+}
+
+/* Containers */
+.container{
+    max-width: 70%;
+    margin: auto;
+    
+}
+.main-header{
+    width: 100%;
+    height: 80vh;
+    background: url('/images/main-content.jpg') no-repeat center center/cover;
+    position: relative;
+}
+.main-header-top{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.logo img{
+    width: 50px;
+}
+.nav ul li{
+    display: inline;
+    margin: 0 2rem;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #898788;
+    letter-spacing: 4px
+}
+.main-header-center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-header-center h1{
+    font-size: 2.4rem;
+}
+.designer-coder img{
+    width: 500px;
+    margin-bottom: 3rem;
+}
+.main-header-socials{
+    position: absolute;
+    left: 22%;
+}
+.main-header-socials ul li{
+    text-decoration: none;
+    display: inline;
+    margin: 0 20px;
+    
+}
+.main-header-socials ul li img{
+    width: 40px;
+}
+
+/* Projects */
+.projects{
+    background-color: #191514;
+    height: 40vh;
+     
+}
+.project-title{
+    background-color: #191514;
+    height: 10vh;
+}
+.projects-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+
