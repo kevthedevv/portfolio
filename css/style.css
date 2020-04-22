@@ -91,4 +91,7 @@ body{
     justify-items: center;
 
 }
+.projects-content img{
+    width: 400px;
+}
 
